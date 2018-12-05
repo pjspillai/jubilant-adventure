@@ -1,5 +1,9 @@
 #### README.md
 
+##### Quick Anaconda Environment Creation from yml file
+
+`conda env create -f visionResearch.yml`
+
 ##### Create and Setup up virtual Anaconda environment for DL, Vision
 
 ```
@@ -8,7 +12,7 @@ source activate visionResearch
 ```
 
 
-### Install Conda Packages 
+##### Install Conda Packages 
 * OpenCV
 * Caffe2
 * PyTorch
@@ -18,8 +22,8 @@ source activate visionResearch
 sh all_requirements.sh
 `
 
-### Install python pip packages
-##### Data Science , Utilities
+##### Install python pip packages
+###### Data Science , Utilities
 * matplotlib
 * numpy
 * scipy
@@ -27,13 +31,13 @@ sh all_requirements.sh
 * Pillow
 * pandas
 * milk
-* reques
+* requests
 * h5py
 * tqdm
 * yaml
 * protobuf
 
-##### Deep Learning
+###### Deep Learning
 * Keras
 * Tensorflow
 * Torch
@@ -43,7 +47,7 @@ sh all_requirements.sh
 `pip install --yes -r pip_requirements.txt`
 
 
-### Final Check
+##### Final Check
 
 `python3`
 
