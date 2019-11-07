@@ -31,7 +31,7 @@ mxnet-cu80==1.2.1
 #
 ###### Python Utilities
 #
-PyYAML==3.13
+PyYAML==5.1
 requests==2.20.0
 protobuf==3.6.1
 h5py==2.8.0
